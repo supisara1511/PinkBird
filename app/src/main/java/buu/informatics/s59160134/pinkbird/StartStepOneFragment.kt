@@ -22,7 +22,7 @@ class StartStepOneFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val binding = DataBindingUtil.inflate<FragmentStartsteponeBinding>(inflater,R.layout.fragment_startstepone,container,false)
-        val numberPicker = binding.numberPickerStep1
+        val numberPicker = binding.longPeriodPicker
         if (numberPicker != null) {
             val values = arrayOf("1 Days", "2 Days", "3 Days", "4 Days", "5 Days", "6 Days", "7 Days")
             numberPicker.minValue = 0

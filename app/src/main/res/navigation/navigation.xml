@@ -17,5 +17,11 @@
     </fragment>
     <fragment android:id="@+id/startStepTwoFragment"
               android:name="buu.informatics.s59160134.pinkbird.StartStepTwoFragment"
-              android:label="fragment_startsteptwo" tools:layout="@layout/fragment_startsteptwo"/>
+              android:label="fragment_startsteptwo" tools:layout="@layout/fragment_startsteptwo">
+        <action android:id="@+id/action_startStepTwoFragment_to_startStepThreeFragment"
+                app:destination="@id/startStepThreeFragment"/>
+    </fragment>
+    <fragment android:id="@+id/startStepThreeFragment"
+              android:name="buu.informatics.s59160134.pinkbird.StartStepThreeFragment"
+              android:label="fragment_startstepthree" tools:layout="@layout/fragment_startstepthree"/>
 </navigation>

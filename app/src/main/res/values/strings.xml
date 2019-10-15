@@ -10,4 +10,6 @@
     <string name="Step2">step 2 out of 3</string>
     <string name="Step1_text">On average, how long is your period?</string>
     <string name="Step2_text">On average, how long is your cycle?</string>
+    <string name="Step3_text">When did your last period start?</string>
+    <string name="Step3">step 3 out of 3</string>
 </resources>

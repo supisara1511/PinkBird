@@ -20,7 +20,7 @@ class StartStepTwoFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val binding = DataBindingUtil.inflate<FragmentStartsteptwoBinding>(inflater,R.layout.fragment_startsteptwo,container,false)
-        val numberPicker = binding.numberPickerStep2
+        val numberPicker = binding.longCyclePicker
         if (numberPicker != null) {
             val values = arrayOf("22 Days", "23 Days", "24 Days", "25 Days", "26 Days", "27 Days", "28 Days")
             numberPicker.minValue = 0
@@ -28,7 +28,9 @@ class StartStepTwoFragment : Fragment() {
             numberPicker.displayedValues = values
             numberPicker.wrapSelectorWheel = true
         }
-
+        binding.nextBtn.setOnClickListener { view : View ->
+            view.findNavController().navigate(R.id.action_startStepTwoFragment_to_startStepThreeFragment)
+        }
 
         return binding.root
     }

@@ -23,5 +23,13 @@
     </fragment>
     <fragment android:id="@+id/startStepThreeFragment"
               android:name="buu.informatics.s59160134.pinkbird.StartStepThreeFragment"
-              android:label="fragment_startstepthree" tools:layout="@layout/fragment_startstepthree"/>
+              android:label="fragment_startstepthree" tools:layout="@layout/fragment_startstepthree">
+        <action android:id="@+id/action_startStepThreeFragment_to_homeFragment" app:destination="@id/homeFragment"/>
+    </fragment>
+    <fragment android:id="@+id/homeFragment" android:name="buu.informatics.s59160134.pinkbird.HomeFragment"
+              android:label="หน้าแรก" tools:layout="@layout/fragment_home"/>
+    <fragment android:id="@+id/calendaFragment" android:name="buu.informatics.s59160134.pinkbird.CalendaFragment"
+              android:label="ปฏิทิน" tools:layout="@layout/fragment_calenda"/>
+    <fragment android:id="@+id/settingFragment" android:name="buu.informatics.s59160134.pinkbird.SettingFragment"
+              android:label="การตั้งค่า" tools:layout="@layout/fragment_setting"/>
 </navigation>

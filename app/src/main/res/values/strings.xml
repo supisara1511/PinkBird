@@ -12,4 +12,8 @@
     <string name="Step2_text">On average, how long is your cycle?</string>
     <string name="Step3_text">When did your last period start?</string>
     <string name="Step3">step 3 out of 3</string>
+    <string name="action_setting">Setting</string>
+    <string name="action_calenda">Calenda</string>
+    <string name="action_home">Home</string>
+    <string name="savePeriod_btn">Save Period</string>
 </resources>

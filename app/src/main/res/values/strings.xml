@@ -3,4 +3,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Welcome_text">Welcome to PinkBird</string>
+    <string name="GetStarted">Get Started</string>
+    <string name="Step1">step 1 out of 3</string>
+    <string name="next">Next</string>
+    <string name="Step2">step 2 out of 3</string>
+    <string name="Step1_text">On average, how long is your period?</string>
+    <string name="Step2_text">On average, how long is your cycle?</string>
 </resources>

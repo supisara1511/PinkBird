@@ -5,5 +5,17 @@
             app:startDestination="@id/welcomeFragment">
 
     <fragment android:id="@+id/welcomeFragment" android:name="buu.informatics.s59160134.pinkbird.WelcomeFragment"
-              android:label="fragment_welcome" tools:layout="@layout/fragment_welcome"/>
+              android:label="fragment_welcome" tools:layout="@layout/fragment_welcome">
+        <action android:id="@+id/action_welcomeFragment_to_startStepOneFragment"
+                app:destination="@id/startStepOneFragment"/>
+    </fragment>
+    <fragment android:id="@+id/startStepOneFragment"
+              android:name="buu.informatics.s59160134.pinkbird.StartStepOneFragment"
+              android:label="fragment_startstepone" tools:layout="@layout/fragment_startstepone">
+        <action android:id="@+id/action_startStepOneFragment_to_startStepTwoFragment"
+                app:destination="@id/startStepTwoFragment"/>
+    </fragment>
+    <fragment android:id="@+id/startStepTwoFragment"
+              android:name="buu.informatics.s59160134.pinkbird.StartStepTwoFragment"
+              android:label="fragment_startsteptwo" tools:layout="@layout/fragment_startsteptwo"/>
 </navigation>

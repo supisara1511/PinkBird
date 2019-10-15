@@ -16,4 +16,11 @@
     <string name="action_calenda">Calenda</string>
     <string name="action_home">Home</string>
     <string name="savePeriod_btn">Save Period</string>
+    <string name="Notifivation_text">เริ่มมีประจำเดือน</string>
+    <string name="Date_noti">ตารางเวลา</string>
+    <string name="time_noti">เวลา</string>
+    <string name="message_noti">ข้อความ</string>
+    <string name="DatePeriod_text">12 วัน</string>
+    <string name="status">ประจำเดือนใน</string>
+    <string name="date_text">9 October 2019</string>
 </resources>
